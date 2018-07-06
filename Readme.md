@@ -21,7 +21,7 @@ I've written a complete tutorial series for this application on The CalliCoder B
 1. **Clone the application**
 
 	```bash
-	git clone https://github.com/callicoder/spring-boot-mysql-rest-api-tutorial.git
+	git clone https://github.com/callicoder/spring-security-react-ant-design-polls-app.git
 	cd polling-app-server
 	```
 
@@ -53,7 +53,7 @@ I've written a complete tutorial series for this application on The CalliCoder B
 	mvn package
 	java -jar target/polls-0.0.1-SNAPSHOT.jar
 	```
-5. ~~**Add the default Roles**~~ (It's not needed now. I've added flyway migrations)
+5. **Add the default Roles**
 	
 	The spring boot app uses role based authorization powered by spring security. Please execute the following sql queries in the database to insert the `USER` and `ADMIN` roles.
 
